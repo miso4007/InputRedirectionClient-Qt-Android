@@ -76,4 +76,12 @@
          Remove the comment if you do not require these default features. -->
     <!-- %%INSERT_FEATURES -->
 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inputredirection">
+
+    <uses-sdk android:targetSdkVersion="34" />
+
+    <!-- 外部入力デバイスアクセスに必要 -->
+    <uses-permission android:name="android.permission.ACCESS_INPUT_DEVICES" />
+
 </manifest>
